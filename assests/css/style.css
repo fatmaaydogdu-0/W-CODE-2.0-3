@@ -1,0 +1,22 @@
+body{
+ 
+    background-size: cover; 
+
+}
+#para1{
+    color: blue;
+    background-color: yellow;
+
+}
+.para2{
+    color: red;
+    background-color: lightgrey;
+    opacity: 0.8;
+
+}
+.header-one{
+    font-size: x-large;
+    color: red;
+    text-align: center;
+ border-bottom: 1px solid black;
+}
