@@ -1,22 +1,58 @@
 body{
- 
-    background-size: cover; 
+    /* background-image: url(/assets/img/pexels-thatguycraig000-1563356.jpg); */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
 
 }
+.princess-sofia-regular {
+  font-family: "Princess Sofia", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 #para1{
     color: blue;
-    background-color: yellow;
+    background-color: aqua;
 
 }
 .para2{
-    color: red;
-    background-color: lightgrey;
-    opacity: 0.8;
+    color: green;
+    background-color: tan;
+    opacity: 0.4;
+}
+
+.header-one{
+    text-align: center;
+    font-size: x-large;
+    color: brown;
+    border-bottom: 1px solid brown;
+    padding: 20px;
+}
+.nav-link a, .footer-link a{
+    text-decoration: none;
+    color: brown;
+    border: 1px solid brown;
+    padding:5px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px gray;
+}
+.nav-link, .footer-link{
+    list-style: none;
 
 }
-.header-one{
-    font-size: x-large;
-    color: red;
+.nav-link a:hover , .footer-link a:hover{
+    color:black ;
+    background-color: brown;
+}
+.footer-link{
+    border-top: 1px solid brown;
+        padding: 20px;
+}
+
+.small-text{
     text-align: center;
- border-bottom: 1px solid black;
+    font-size: small;
 }
